@@ -4,10 +4,26 @@ A Telegram Bot for inspirational-quotes, written in \`Python\`, and inspired by 
 ---
 ## ربات تلگرامی سخنان بزگان
 این یک ربات تلگرامی است که با پایتون نوشته، و از \`cowsay\` الهام گرفته شده.
+همراه با ترجمه فارسی در قالبی مناسب.
+
+<img src="shotwcase_TeleBot.jpg" alt="Shocase-Bot" width='75%'>
+<sub>بک-اند ترجمه از <a href="https://github.com/ismalzikri/free-translate-api"><strong>از این ریپو</strong></a> کمک گرفته شده</sub>
 
 ---
 ### How to run
-specify given variables in `.env` file.
+clone the repo
+``` bash
+git clone https://github.com/AbbasDehganzadeh/py-notto-bot.git
+cd py-notto-bot/
+```
+first specify given variables in sample `.env` file.
+
+then start the translate api
+``` bash
+cd free-translate-ali && go run main.go
+```
+
+finally create a venv, and run your app
 
 ``` bash
 python3 -m virtualenv .venv
